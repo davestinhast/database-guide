@@ -3,7 +3,7 @@
 
 # MySQL
 
-![Rating](https://img.shields.io/badge/rating-⭐⭐⭐-orange?style=flat-square)
+![Rating](https://img.shields.io/badge/rating-★★★-orange?style=flat-square)
 ![License](https://img.shields.io/badge/license-GPL_v2_%2F_Commercial-red?style=flat-square)
 ![Type](https://img.shields.io/badge/type-Relacional_ACID-blue?style=flat-square)
 ![Language](https://img.shields.io/badge/escrito_en-C%2B%2B-lightgrey?style=flat-square)
@@ -14,12 +14,12 @@
 
 ---
 
-## ⚡ Quick stats
+##  Quick stats
 
 | Atributo | Valor |
 |---|---|
 | Tipo | Relacional (SQL) |
-| ACID | ✅ Completo (InnoDB engine) |
+| ACID |  Completo (InnoDB engine) |
 | Licencia | GPL v2 (Community) / Comercial (Oracle) |
 | Lanzamiento | 1995 |
 | DB-Engines rank | #2 (bajando) |
@@ -29,7 +29,7 @@
 
 ---
 
-## ✅ Cuándo usarlo
+##  Cuándo usarlo
 
 - Ya tienes MySQL en producción y migrar es costoso
 - Stack LAMP / PHP donde MySQL es el default histórico
@@ -37,7 +37,7 @@
 - WordPress, Drupal, Joomla (instalaciones existentes)
 - Managed Cloud si usas MySQL Heatwave (AWS RDS, Google Cloud SQL)
 
-## ❌ Cuándo NO usarlo
+##  Cuándo NO usarlo
 
 - Proyectos nuevos → usa **PostgreSQL** o **MariaDB** directamente
 - Necesitas JSON avanzado o full-text search → PostgreSQL lo hace mejor
@@ -46,7 +46,7 @@
 
 ---
 
-## 📊 Performance
+##  Performance
 
 ```
 Lectura simple (sysbench):     ~48,000 ops/seg
@@ -58,7 +58,7 @@ vs MariaDB:                    11–16% más lento (benchmarks 2024)
 
 ---
 
-## ⚠️ Problemas documentados (2024–2025)
+## [AVISO] Problemas documentados (2024–2025)
 
 | Issue | Detalle |
 |---|---|
@@ -71,37 +71,37 @@ vs MariaDB:                    11–16% más lento (benchmarks 2024)
 
 ---
 
-## 💰 Precios managed
+## Precios managed
 
 | Servicio | Free | Paid desde |
 |---|---|---|
-| **AWS RDS MySQL** | ❌ | ~$15/mes (db.t3.micro) |
-| **Google Cloud SQL** | ❌ | ~$10/mes |
-| **PlanetScale** | 🔴 Free tier eliminado abr 2024 | $5/mes |
+| **AWS RDS MySQL** |  | ~$15/mes (db.t3.micro) |
+| **Google Cloud SQL** |  | ~$10/mes |
+| **PlanetScale** |  Free tier eliminado abr 2024 | $5/mes |
 | **Railway** | $5 crédito one-time | $5/mes |
 
 ---
 
-## 🎥 Tutoriales
+##  Tutoriales
 
-### 🇺🇸 English
+### English
 [![MySQL Mosh](https://img.youtube.com/vi/7S_tz1z_5bA/mqdefault.jpg)](https://www.youtube.com/watch?v=7S_tz1z_5bA)
 [![MySQL Crash](https://img.youtube.com/vi/9ylj9NR0Lcg/mqdefault.jpg)](https://www.youtube.com/watch?v=9ylj9NR0Lcg)
 
-### 🇪🇸 Español
+### Español
 [![MySQL ES TodoCode](https://img.youtube.com/vi/wpdHPqONnqc/mqdefault.jpg)](https://www.youtube.com/watch?v=wpdHPqONnqc)
 [![MySQL Fazt](https://img.youtube.com/vi/OqjnO5gPZoE/mqdefault.jpg)](https://www.youtube.com/watch?v=OqjnO5gPZoE)
 
-### 🇨🇳 中文
+### 中文
 [![MySQL ZH](https://img.youtube.com/vi/a9W7OpS4LfI/mqdefault.jpg)](https://www.bilibili.com/video/BV1iq4y1u7vj)
 
 ---
 
-## 🔗 Links
+##  Links
 
-- 📖 [Documentación oficial](https://dev.mysql.com/doc/)
-- 🔀 [MariaDB — drop-in replacement recomendado](https://mariadb.org/)
-- 🚀 [AWS RDS MySQL](https://aws.amazon.com/rds/mysql/)
+-  [Documentación oficial](https://dev.mysql.com/doc/)
+-  [MariaDB — drop-in replacement recomendado](https://mariadb.org/)
+-  [AWS RDS MySQL](https://aws.amazon.com/rds/mysql/)
 
 ---
 

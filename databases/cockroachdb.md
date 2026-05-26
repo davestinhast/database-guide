@@ -3,7 +3,7 @@
 
 # CockroachDB
 
-![Rating](https://img.shields.io/badge/rating-⭐⭐⭐⭐⭐-blue?style=flat-square)
+![Rating](https://img.shields.io/badge/rating-★★★★★-blue?style=flat-square)
 ![License](https://img.shields.io/badge/license-BSL_→_Apache_2.0_(3_años)-green?style=flat-square)
 ![Type](https://img.shields.io/badge/type-SQL_Distribuido_ACID-blue?style=flat-square)
 ![Language](https://img.shields.io/badge/escrito_en-Go-lightgrey?style=flat-square)
@@ -14,22 +14,22 @@
 
 ---
 
-## ⚡ Quick stats
+##  Quick stats
 
 | Atributo | Valor |
 |---|---|
 | Tipo | SQL Distribuido (NewSQL) |
-| ACID | ✅ Completo — distribuido, multi-región |
+| ACID |  Completo — distribuido, multi-región |
 | Licencia | BSL 1.1 → Apache 2.0 (después de 3 años) |
 | Lanzamiento | 2015 |
 | DB-Engines rank | #30 |
-| Compatible con | PostgreSQL wire protocol ✅ |
-| Sin SPOF | ✅ Peer-to-peer, geo-distributed |
+| Compatible con | PostgreSQL wire protocol  |
+| Sin SPOF |  Peer-to-peer, geo-distributed |
 | Free tier | **5 GiB storage + 50M RU/mes** — nunca expira |
 
 ---
 
-## ✅ Cuándo usarlo
+##  Cuándo usarlo
 
 - Apps que necesitan distribución geográfica + ACID completo
 - Multi-región sin sacrificar consistencia
@@ -38,7 +38,7 @@
 - Compliance multi-región (GDPR: datos en EU, CCPA: en US)
 - Apps críticas con 99.999% uptime requirement
 
-## ❌ Cuándo NO usarlo
+##  Cuándo NO usarlo
 
 - Proyecto single-node sin requisito multi-región → PostgreSQL directo
 - Latencia ultra-baja in-process → SQLite
@@ -47,7 +47,7 @@
 
 ---
 
-## 📊 Performance — TPC-C (Strong Consistency ACID)
+##  Performance — TPC-C (Strong Consistency ACID)
 
 ```
 tpmC total:          1,680,000
@@ -65,7 +65,7 @@ Versión tested:      v20.2
 
 ---
 
-## 🗺️ Arquitectura — distribución geo
+## ️ Arquitectura — distribución geo
 
 ```
                     ┌──────────────────────────────────┐
@@ -83,7 +83,7 @@ Versión tested:      v20.2
 
 ---
 
-## 💰 Precios
+## Precios
 
 | Plan | Storage | Request Units | Precio |
 |---|---|---|---|
@@ -96,7 +96,7 @@ Versión tested:      v20.2
 
 ---
 
-## 🔧 Compatibilidad PostgreSQL
+##  Compatibilidad PostgreSQL
 
 ```sql
 -- CockroachDB entiende PostgreSQL wire protocol
@@ -111,20 +111,20 @@ Versión tested:      v20.2
 
 ---
 
-## 🎥 Tutoriales
+##  Tutoriales
 
-### 🇺🇸 English
+### English
 [![CockroachDB 100s](https://img.youtube.com/vi/VgXiMcbGwzQ/mqdefault.jpg)](https://www.youtube.com/watch?v=VgXiMcbGwzQ)
 [![CockroachDB Tutorial](https://img.youtube.com/vi/00QmGhGPuyk/mqdefault.jpg)](https://www.youtube.com/watch?v=00QmGhGPuyk)
 
 ---
 
-## 🔗 Links
+##  Links
 
-- 📖 [Documentación oficial](https://www.cockroachlabs.com/docs/)
-- 🚀 [CockroachDB Serverless — free tier](https://www.cockroachlabs.com/free-tier/)
-- 📊 [TPC-C benchmark details](https://www.cockroachlabs.com/blog/cockroachdb-performance-20-2/)
-- 🔧 [Migración desde PostgreSQL](https://www.cockroachlabs.com/docs/stable/migrate-from-postgres.html)
+-  [Documentación oficial](https://www.cockroachlabs.com/docs/)
+-  [CockroachDB Serverless — free tier](https://www.cockroachlabs.com/free-tier/)
+-  [TPC-C benchmark details](https://www.cockroachlabs.com/blog/cockroachdb-performance-20-2/)
+-  [Migración desde PostgreSQL](https://www.cockroachlabs.com/docs/stable/migrate-from-postgres.html)
 
 ---
 

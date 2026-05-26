@@ -1,17 +1,17 @@
-# 💀 Las Peores — Bases de Datos a Evitar
+# Las Peores — Bases de Datos a Evitar
 
 > Datos verificados. Includes shutdowns reales, license bait-and-switch, y problemas documentados.
 
 ---
 
-## ☠️ Bases de datos MUERTAS (2024–2025)
+## Bases de datos MUERTAS (2024–2025)
 
 ### FaunaDB — CERRADA mayo 30, 2025
 
 <img src="https://avatars.githubusercontent.com/u/11717234?s=100" width="60"/>
 
 ```
-Estado:     ☠️ CERRADA
+Estado:     [CERRADA]
 Fecha:      30 mayo 2025
 Afectados:  3,000+ equipos de desarrollo, 195+ bases de datos
 ```
@@ -25,7 +25,7 @@ FaunaDB era una base de datos multi-modelo distribuida globalmente con transacci
 ### Amazon QLDB — CERRADA 2024
 
 ```
-Estado:     ☠️ CERRADA
+Estado:     [CERRADA]
 Año:        2024
 ```
 
@@ -36,7 +36,7 @@ QLDB (Quantum Ledger Database) era la propuesta de AWS para bases de datos con v
 ### Rockset — CERRADA septiembre 2024
 
 ```
-Estado:     ☠️ CERRADA (servicio DBaaS)
+Estado:     [CERRADA] (servicio DBaaS)
 Fecha:      Septiembre 2024
 Motivo:     Adquirida por OpenAI
 ```
@@ -48,7 +48,7 @@ Base de datos para analytics en tiempo real. OpenAI la adquirió para uso intern
 ### Greenplum — Abandonada / Propietaria 2024
 
 ```
-Estado:     ⚠️ Repositorio open-source eliminado silenciosamente en 2024
+Estado:     [AVISO] Repositorio open-source eliminado silenciosamente en 2024
 Años activo: 9 años de open-source
 ```
 
@@ -58,7 +58,7 @@ Después de 9 años, el repositorio open-source fue eliminado sin anuncio mayor.
 
 ---
 
-## ⚠️ Bait-and-Switch de Licencias
+## [AVISO] Bait-and-Switch de Licencias
 
 ### Redis → Valkey (fork open-source)
 
@@ -126,7 +126,7 @@ Elastic fue el primer caso famoso de license bait-and-switch. Cambió a SSPL en 
 
 ---
 
-## 📉 En Declive — Usar con Precaución
+##  En Declive — Usar con Precaución
 
 ### MySQL
 
@@ -174,7 +174,7 @@ La promesa de CouchDB (sync offline, multi-master) nunca se tradujo en adopción
 ### Render PostgreSQL Free
 
 ```
-⚠️ No es un free tier real
+[AVISO] No es un free tier real
 Elimina la base de datos a los 30 días
 14 días de gracia para upgrade (después: datos borrados permanentemente)
 ```
@@ -183,7 +183,7 @@ Mencionado por la cantidad de proyectos que lo usan sin saber este detalle.
 
 ---
 
-## 📊 Ranking por "confianza en 2025"
+##  Ranking por "confianza en 2025"
 
 ```mermaid
 xychart-beta horizontal
@@ -195,4 +195,4 @@ xychart-beta horizontal
 
 ---
 
-> [← Precios](./PRICING.md) &nbsp;|&nbsp; [📚 Recursos →](./RESOURCES.md)
+> [← Precios](./PRICING.md) &nbsp;|&nbsp; [ Recursos →](./RESOURCES.md)

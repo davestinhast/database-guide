@@ -3,7 +3,7 @@
 
 # Neo4j
 
-![Rating](https://img.shields.io/badge/rating-⭐⭐⭐⭐-blue?style=flat-square)
+![Rating](https://img.shields.io/badge/rating-★★★★-blue?style=flat-square)
 ![License](https://img.shields.io/badge/license-GPL_v3_%2F_Commercial-green?style=flat-square)
 ![Type](https://img.shields.io/badge/type-Grafos_ACID-purple?style=flat-square)
 ![Language](https://img.shields.io/badge/escrito_en-Java-lightgrey?style=flat-square)
@@ -14,12 +14,12 @@
 
 ---
 
-## ⚡ Quick stats
+##  Quick stats
 
 | Atributo | Valor |
 |---|---|
 | Tipo | Grafos (Property Graph) |
-| ACID | ✅ Completo |
+| ACID |  Completo |
 | Licencia | GPL v3 (Community) / Comercial (Enterprise) |
 | Lanzamiento | 2007 |
 | DB-Engines rank | #23 (líder absoluto en grafos) |
@@ -29,7 +29,7 @@
 
 ---
 
-## ✅ Cuándo usarlo
+##  Cuándo usarlo
 
 - Redes sociales (amigos-de-amigos, recomendaciones)
 - Detección de fraude (patrones en transacciones)
@@ -40,7 +40,7 @@
 - Rutas y navegación (pathfinding)
 - Compliance y trazabilidad regulatoria
 
-## ❌ Cuándo NO usarlo
+##  Cuándo NO usarlo
 
 - Datos principalmente tabulares con pocas relaciones → SQL
 - Alta carga de escrituras simples → Cassandra/ScyllaDB
@@ -51,7 +51,7 @@
 
 ---
 
-## 📊 Performance
+##  Performance
 
 ```
 Traversal profundo (6+ hops):    Seconds (vs minutos en SQL)
@@ -65,7 +65,7 @@ Escalabilidad:                   Vertical (Community) / Clustering (Enterprise)
 
 ---
 
-## 🗺️ Cypher — el lenguaje
+## ️ Cypher — el lenguaje
 
 ```cypher
 -- Encontrar amigos de amigos que comparten intereses
@@ -84,38 +84,38 @@ RETURN path LIMIT 25
 
 ---
 
-## 💰 Precios
+## Precios
 
 | Servicio | Free | Paid desde |
 |---|---|---|
 | **Neo4j AuraDB Free** | 200K nodos / 400K relaciones | Gratis, nunca expira |
 | **AuraDB Professional** | — | $65/mes |
 | **AuraDB Enterprise** | — | Custom |
-| **Self-hosted Community** | ✅ Gratis (GPL v3) | — |
+| **Self-hosted Community** |  Gratis (GPL v3) | — |
 | **Self-hosted Enterprise** | — | Custom (licencia) |
 
 ---
 
-## 🎥 Tutoriales
+##  Tutoriales
 
-### 🇺🇸 English
+### English
 [![Neo4j 100s](https://img.youtube.com/vi/T6L9EoBy8Zk/mqdefault.jpg)](https://www.youtube.com/watch?v=T6L9EoBy8Zk)
 [![Neo4j Full](https://img.youtube.com/vi/8jNPelugC2s/mqdefault.jpg)](https://www.youtube.com/watch?v=8jNPelugC2s)
 
-### 🇪🇸 Español
-🔗 [Canal Neo4j en Español](https://www.youtube.com/@neo4j/search?query=español)
+### Español
+ [Canal Neo4j en Español](https://www.youtube.com/@neo4j/search?query=español)
 
-### 🇨🇳 中文
-🔗 [Neo4j 中文社区](https://neo4j.com.cn/)
+### 中文
+ [Neo4j 中文社区](https://neo4j.com.cn/)
 
 ---
 
-## 🔗 Links
+##  Links
 
-- 📖 [Documentación oficial](https://neo4j.com/docs/)
-- 🎮 [Neo4j Sandbox — prueba gratis online](https://sandbox.neo4j.com/)
-- 🚀 [AuraDB — managed free tier](https://neo4j.com/cloud/platform/aura-graph-database/)
-- 📚 [GraphAcademy — cursos gratis](https://graphacademy.neo4j.com/)
+-  [Documentación oficial](https://neo4j.com/docs/)
+-  [Neo4j Sandbox — prueba gratis online](https://sandbox.neo4j.com/)
+-  [AuraDB — managed free tier](https://neo4j.com/cloud/platform/aura-graph-database/)
+-  [GraphAcademy — cursos gratis](https://graphacademy.neo4j.com/)
 
 ---
 

@@ -3,8 +3,8 @@
 
 # ScyllaDB
 
-![Rating](https://img.shields.io/badge/rating-⭐⭐⭐_(2025)-orange?style=flat-square)
-![License](https://img.shields.io/badge/license-⚠️_Source--Available_(dic_2024)-red?style=flat-square)
+![Rating](https://img.shields.io/badge/rating-★★★_(2025)-orange?style=flat-square)
+![License](https://img.shields.io/badge/license-[AVISO]_Source--Available_(dic_2024)-red?style=flat-square)
 ![Type](https://img.shields.io/badge/type-Wide--Column_NoSQL-orange?style=flat-square)
 ![Language](https://img.shields.io/badge/escrito_en-C%2B%2B-lightgrey?style=flat-square)
 
@@ -14,13 +14,13 @@
 
 ---
 
-## ⚡ Quick stats
+##  Quick stats
 
 | Atributo | Valor |
 |---|---|
 | Tipo | Wide-Column (NoSQL, Cassandra-compatible) |
-| ACID | ❌ Eventual consistency (LWT para parcial) |
-| Licencia | ⚠️ **Source-Available** (desde dic 2024) |
+| ACID |  Eventual consistency (LWT para parcial) |
+| Licencia | [AVISO] **Source-Available** (desde dic 2024) |
 | Último release OSS | **v6.2** (AGPL, congelada) |
 | Lanzamiento | 2015 |
 | DB-Engines rank | #28 |
@@ -29,11 +29,11 @@
 
 ---
 
-## ⚠️ Alerta de licencia (diciembre 2024)
+## [AVISO] Alerta de licencia (diciembre 2024)
 
 ```
-Antes:   AGPL v3 ✅ (open source real)
-Ahora:   Source-Available ❌ (no OSS, requiere licencia enterprise)
+Antes:   AGPL v3  (open source real)
+Ahora:   Source-Available  (no OSS, requiere licencia enterprise)
 Último OSS:  v6.2 (congelada, sin actualizaciones de seguridad futuras)
 ```
 
@@ -44,7 +44,7 @@ Ahora:   Source-Available ❌ (no OSS, requiere licencia enterprise)
 
 ---
 
-## 🏎️ Performance — aún el más rápido técnicamente
+## ️ Performance — aún el más rápido técnicamente
 
 ```mermaid
 xychart-beta horizontal
@@ -63,13 +63,13 @@ xychart-beta horizontal
 | p99 read latencia | 40–125ms | **15ms** | ScyllaDB |
 | Compaction | baseline | **32x más rápido** | ScyllaDB |
 | Scaling operations | vNodes (lento) | **7.2x más rápido** (Tablets) | ScyllaDB |
-| Licencia OSS | Apache 2.0 ✅ | Source-Available ❌ | **Cassandra** |
+| Licencia OSS | Apache 2.0  | Source-Available  | **Cassandra** |
 
 **Fuente**: [scylladb.com/benchmarks](https://www.scylladb.com/product/benchmarks/) + reportes de clientes
 
 ---
 
-## 🧠 Por qué es más rápido
+##  Por qué es más rápido
 
 ```
 Cassandra:  Java + JVM → Garbage Collection pauses → latencia inconsistente
@@ -84,13 +84,13 @@ Core 1 → Shard 1 → maneja subset de datos
 
 ---
 
-## ✅ Cuándo tiene sentido aún
+##  Cuándo tiene sentido aún
 
 - Proyectos existentes en ScyllaDB v6.2 que no necesitan upgrade
 - Equipos con **presupuesto enterprise** donde el throughput justifica el costo
 - ScyllaDB Cloud managed (si el SLA lo requiere)
 
-## ❌ Cuándo NO
+##  Cuándo NO
 
 - Nuevos proyectos que quieran OSS → Apache Cassandra 5.x
 - Sin presupuesto enterprise para licencia
@@ -98,17 +98,17 @@ Core 1 → Shard 1 → maneja subset de datos
 
 ---
 
-## 💰 Precios
+## Precios
 
 | Servicio | Free | Paid desde |
 |---|---|---|
-| **ScyllaDB Cloud** | ❌ | ~$0.42/hora (i4i.xlarge) |
-| **ScyllaDB Enterprise** | ❌ | Custom (licencia) |
-| **v6.2 OSS** | ✅ Gratis (congelada) | Riesgo sin updates |
+| **ScyllaDB Cloud** |  | ~$0.42/hora (i4i.xlarge) |
+| **ScyllaDB Enterprise** |  | Custom (licencia) |
+| **v6.2 OSS** |  Gratis (congelada) | Riesgo sin updates |
 
 ---
 
-## 🔀 Decisión 2025
+##  Decisión 2025
 
 ```
 Necesitas Cassandra-compatible + open-source → Apache Cassandra 5.x
@@ -119,12 +119,12 @@ Proyectos existentes ScyllaDB <6.2          → Evalúa migración a Cassandra
 
 ---
 
-## 🔗 Links
+##  Links
 
-- 📖 [Documentación oficial](https://docs.scylladb.com/)
-- 🔀 [Migración ScyllaDB → Cassandra](https://cassandra.apache.org/_/blog.html)
-- 📊 [ScyllaDB benchmarks (vendor)](https://www.scylladb.com/product/benchmarks/)
-- 📰 [Anuncio cambio de licencia dic 2024](https://www.scylladb.com/2024/12/)
+-  [Documentación oficial](https://docs.scylladb.com/)
+-  [Migración ScyllaDB → Cassandra](https://cassandra.apache.org/_/blog.html)
+-  [ScyllaDB benchmarks (vendor)](https://www.scylladb.com/product/benchmarks/)
+-  [Anuncio cambio de licencia dic 2024](https://www.scylladb.com/2024/12/)
 
 ---
 

@@ -1,4 +1,4 @@
-# ⚡ Benchmarks — Performance Verificada 2025/2026
+# Benchmarks — Performance Verificada 2025/2026
 
 > Datos de fuentes públicas verificadas: YCSB, TPC-C/TPC-B, Redis Official Benchmarks, ScyllaDB benchmarks,
 > DB-Engines Q1 2025 report, y documentación oficial de cada DB.
@@ -6,7 +6,7 @@
 
 ---
 
-## 🔴 Lectura simple — ops/segundo
+##  Lectura simple — ops/segundo
 
 ```mermaid
 xychart-beta horizontal
@@ -32,7 +32,7 @@ xychart-beta horizontal
 
 ---
 
-## 🔵 Escritura intensiva
+##  Escritura intensiva
 
 ```mermaid
 xychart-beta horizontal
@@ -52,7 +52,7 @@ xychart-beta horizontal
 | **MySQL** | ~40,000 | sysbench |
 | **PostgreSQL** | ~30,000 | WAL + MVCC overhead |
 
-> ⚠️ Los números de ScyllaDB son vendor benchmarks — tomálos con precaución. El cluster benchmarkeado
+> [AVISO] Los números de ScyllaDB son vendor benchmarks — tomálos con precaución. El cluster benchmarkeado
 > era de hardware especializado. En hardware commodity la ventaja vs Cassandra es 2x–5x, no 1000x.
 
 ---
@@ -77,11 +77,11 @@ xychart-beta
 | p99 read latencia (cliente real) | 40–125ms | 15ms | ScyllaDB |
 | Compaction speed | baseline | **32x más rápido** | ScyllaDB |
 | Scaling operations | vNodes (lento) | **7.2x más rápido** (Tablets) | ScyllaDB |
-| Licencia | Apache 2.0 ✅ gratis | Source-available desde dic 2024 ⚠️ | **Cassandra** |
+| Licencia | Apache 2.0  gratis | Source-available desde dic 2024 [AVISO] | **Cassandra** |
 
 **Fuente**: [scylladb.com/product/benchmarks](https://www.scylladb.com/product/benchmarks/), reportes de clientes públicos.
 
-> ⚠️ **ALERTA 2024**: ScyllaDB eliminó su licencia AGPL en diciembre 2024. El último release
+> [AVISO] **ALERTA 2024**: ScyllaDB eliminó su licencia AGPL en diciembre 2024. El último release
 > open-source es la versión 6.2. Nuevos proyectos que necesiten open-source deben usar Cassandra.
 
 ---
@@ -102,19 +102,19 @@ xychart-beta
 
 ---
 
-## 🏋️ Escalabilidad horizontal
+## ️ Escalabilidad horizontal
 
 ```mermaid
 graph LR
-    A[1–100 req/s] -->|SQLite, PostgreSQL single| B[✅ Perfecto]
-    C[100–10K req/s] -->|MySQL, MongoDB, PostgreSQL tuned| D[✅ Cómodo]
-    E[10K–100K req/s] -->|PostgreSQL + replicas, MongoDB cluster| F[⚠️ Requiere tuning]
-    G[100K–1M+ req/s] -->|Cassandra, ScyllaDB, DynamoDB, Redis cluster| H[✅ Diseñado para esto]
+    A[1–100 req/s] -->|SQLite, PostgreSQL single| B[ Perfecto]
+    C[100–10K req/s] -->|MySQL, MongoDB, PostgreSQL tuned| D[ Cómodo]
+    E[10K–100K req/s] -->|PostgreSQL + replicas, MongoDB cluster| F[[AVISO] Requiere tuning]
+    G[100K–1M+ req/s] -->|Cassandra, ScyllaDB, DynamoDB, Redis cluster| H[ Diseñado para esto]
 ```
 
 ---
 
-## 📊 CockroachDB — TPC-C (Strong Consistency ACID)
+##  CockroachDB — TPC-C (Strong Consistency ACID)
 
 | Métrica | Resultado | Versión |
 |---|---|---|
@@ -129,7 +129,7 @@ CockroachDB es la mejor opción para ACID distribuido en múltiples regiones. Th
 
 ---
 
-## 🔗 Fuentes
+##  Fuentes
 
 - [Redis Official Benchmarks](https://redis.io/docs/latest/operate/oss_and_stack/management/optimization/benchmarks/)
 - [Valkey vs Redis 2025](https://andrewbaker.ninja/2026/01/04/redis-vs-valkey-enterprise-architecture-guide-2025/)
@@ -140,4 +140,4 @@ CockroachDB es la mejor opción para ACID distribuido en múltiples regiones. Th
 
 ---
 
-> [← README](./README.md) &nbsp;|&nbsp; [💰 Precios →](./PRICING.md)
+> [← README](./README.md) &nbsp;|&nbsp; [Precios →](./PRICING.md)

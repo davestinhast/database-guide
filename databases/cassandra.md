@@ -3,7 +3,7 @@
 
 # Apache Cassandra
 
-![Rating](https://img.shields.io/badge/rating-⭐⭐⭐⭐-blue?style=flat-square)
+![Rating](https://img.shields.io/badge/rating-★★★★-blue?style=flat-square)
 ![License](https://img.shields.io/badge/license-Apache_2.0-brightgreen?style=flat-square)
 ![Type](https://img.shields.io/badge/type-Wide--Column_NoSQL-orange?style=flat-square)
 ![Language](https://img.shields.io/badge/escrito_en-Java-lightgrey?style=flat-square)
@@ -14,22 +14,22 @@
 
 ---
 
-## ⚡ Quick stats
+##  Quick stats
 
 | Atributo | Valor |
 |---|---|
 | Tipo | Wide-Column (NoSQL) |
-| ACID | ❌ Eventual consistency (LWT parcial para ACID) |
-| Licencia | Apache 2.0 ✅ (OSS real) |
+| ACID |  Eventual consistency (LWT parcial para ACID) |
+| Licencia | Apache 2.0  (OSS real) |
 | Lanzamiento | 2008 (Facebook) → 2010 (Apache) |
 | DB-Engines rank | #11 |
 | Casos de uso | Netflix, Apple, Discord, Instagram |
-| Sin SPOF | ✅ Peer-to-peer, todos los nodos iguales |
+| Sin SPOF |  Peer-to-peer, todos los nodos iguales |
 | Managed | DataStax Astra DB, AWS Keyspaces |
 
 ---
 
-## ✅ Cuándo usarlo
+##  Cuándo usarlo
 
 - Escrituras masivas y continuas (IoT, logs, time series)
 - Replicación multi-datacenter nativa
@@ -39,7 +39,7 @@
 - >100K escrituras/seg sostenidas
 - Netflix-scale de datos de usuarios, eventos, historial
 
-## ❌ Cuándo NO usarlo
+##  Cuándo NO usarlo
 
 - Queries complejos con JOINs → PostgreSQL
 - Datos fuertemente relacionados → cualquier SQL
@@ -50,7 +50,7 @@
 
 ---
 
-## 📊 Performance
+##  Performance
 
 ```
 Lectura (YCSB, 4 nodos):       ~77,500 ops/seg
@@ -76,18 +76,18 @@ xychart-beta horizontal
 | Métrica | Cassandra | ScyllaDB |
 |---|---|---|
 | Arquitectura | Java + JVM (GC pauses) | C++ (sin JVM, sin GC) |
-| Licencia 2025 | **Apache 2.0** ✅ | Source-available ⚠️ |
+| Licencia 2025 | **Apache 2.0**  | Source-available [AVISO] |
 | Throughput | baseline | 2x–5x mayor |
 | p99 insert | 5–70ms | 5ms estable |
 | p99 read | 40–125ms | 15ms |
 | Compaction | baseline | **32x más rápido** |
 | Costo operativo | mayor (más nodos) | menor (10x menos nodos) |
 
-> ⚠️ **ScyllaDB eliminó su licencia AGPL en diciembre 2024.** Para nuevos proyectos open-source: **Apache Cassandra 5.x**.
+> [AVISO] **ScyllaDB eliminó su licencia AGPL en diciembre 2024.** Para nuevos proyectos open-source: **Apache Cassandra 5.x**.
 
 ---
 
-## 🗺️ Arquitectura
+## ️ Arquitectura
 
 ```
 ┌─────────────────────────────────────────────┐
@@ -107,36 +107,36 @@ xychart-beta horizontal
 
 ---
 
-## 💰 Precios managed
+## Precios managed
 
 | Servicio | Free | Paid desde |
 |---|---|---|
 | **DataStax Astra DB** | 25 GB, serverless | $0.10/million RU |
-| **AWS Keyspaces** | ❌ | ~$1.46/million write units |
-| **Self-hosted** | ✅ Gratis (Apache 2.0) | Solo infraestructura |
+| **AWS Keyspaces** |  | ~$1.46/million write units |
+| **Self-hosted** |  Gratis (Apache 2.0) | Solo infraestructura |
 
 ---
 
-## 🎥 Tutoriales
+##  Tutoriales
 
-### 🇺🇸 English
+### English
 [![Cassandra DS](https://img.youtube.com/vi/J-cSy5MeMOA/mqdefault.jpg)](https://www.youtube.com/watch?v=J-cSy5MeMOA)
 [![Cassandra fCC](https://img.youtube.com/vi/s1xc1HVsRk0/mqdefault.jpg)](https://www.youtube.com/watch?v=s1xc1HVsRk0)
 
-### 🇨🇳 中文
+### 中文
 [![Cassandra ZH](https://img.youtube.com/vi/xYBVD3APOPE/mqdefault.jpg)](https://www.bilibili.com/video/BV1ZA411674Z)
 
-### 🇪🇸 Español
-🔗 [Buscar: Cassandra en español](https://www.youtube.com/results?search_query=apache+cassandra+tutorial+español)
+### Español
+ [Buscar: Cassandra en español](https://www.youtube.com/results?search_query=apache+cassandra+tutorial+español)
 
 ---
 
-## 🔗 Links
+##  Links
 
-- 📖 [Documentación oficial](https://cassandra.apache.org/doc/latest/)
-- 🎮 [DataStax Academy — cursos gratis](https://www.datastax.com/learn)
-- 🚀 [DataStax Astra DB (managed gratis)](https://astra.datastax.com/)
-- 📊 [Cassandra vs ScyllaDB benchmarks](https://www.scylladb.com/product/benchmarks/)
+-  [Documentación oficial](https://cassandra.apache.org/doc/latest/)
+-  [DataStax Academy — cursos gratis](https://www.datastax.com/learn)
+-  [DataStax Astra DB (managed gratis)](https://astra.datastax.com/)
+-  [Cassandra vs ScyllaDB benchmarks](https://www.scylladb.com/product/benchmarks/)
 
 ---
 

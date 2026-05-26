@@ -3,7 +3,7 @@
 
 # InfluxDB
 
-![Rating](https://img.shields.io/badge/rating-⭐⭐⭐⭐-blue?style=flat-square)
+![Rating](https://img.shields.io/badge/rating-★★★★-blue?style=flat-square)
 ![License](https://img.shields.io/badge/license-MIT_%281.x%29_%2F_Proprietary_%282.x%2B%29-orange?style=flat-square)
 ![Type](https://img.shields.io/badge/type-Time_Series-teal?style=flat-square)
 ![Language](https://img.shields.io/badge/escrito_en-Go-lightgrey?style=flat-square)
@@ -14,7 +14,7 @@
 
 ---
 
-## ⚡ Quick stats
+##  Quick stats
 
 | Atributo | Valor |
 |---|---|
@@ -29,7 +29,7 @@
 
 ---
 
-## ✅ Cuándo usarlo
+##  Cuándo usarlo
 
 - Métricas de servidores y sistemas (CPU, RAM, I/O)
 - IoT — sensores, telemetría, datos de dispositivos
@@ -39,7 +39,7 @@
 - Dashboards en tiempo real (Grafana + InfluxDB = combo clásico)
 - Redes eléctricas, plantas industriales (SCADA)
 
-## ❌ Cuándo NO usarlo
+##  Cuándo NO usarlo
 
 - Datos relacionales con JOINs → PostgreSQL
 - Búsqueda full-text → Elasticsearch
@@ -49,7 +49,7 @@
 
 ---
 
-## 📊 Performance
+##  Performance
 
 ```
 Ingestión (InfluxDB OSS, NVMe):   ~300,000 puntos/seg
@@ -61,7 +61,7 @@ Retención:                         Configurable por bucket
 
 ---
 
-## 🔧 Stack recomendado — TICK
+##  Stack recomendado — TICK
 
 ```
 Telegraf   → Agente de colección (700+ plugins: CPU, Docker, MQTT, SQL...)
@@ -74,7 +74,7 @@ Alternativa moderna: Telegraf → InfluxDB → Grafana (más popular)
 
 ---
 
-## 💡 InfluxQL básico
+##  InfluxQL básico
 
 ```sql
 -- Últimas 24 horas de CPU de un host
@@ -93,16 +93,16 @@ ORDER BY max DESC LIMIT 5
 
 ---
 
-## 💰 Precios
+## Precios
 
 | Servicio | Free | Paid desde |
 |---|---|---|
-| **InfluxDB OSS 1.x** | ✅ Gratis (MIT) | — |
+| **InfluxDB OSS 1.x** |  Gratis (MIT) | — |
 | **InfluxDB Cloud Serverless** | 5 días trial | $0 con límites + $0.008/MB escritura |
-| **InfluxDB Clustered** | ❌ | Enterprise (custom) |
-| **Self-hosted v2.x** | ✅ Gratis (para uso no-cloud) | — |
+| **InfluxDB Clustered** |  | Enterprise (custom) |
+| **Self-hosted v2.x** |  Gratis (para uso no-cloud) | — |
 
-> ⚠️ InfluxDB 2.x+ cambió a licencia propietaria para el core. La versión 1.x sigue siendo MIT. Alternativa OSS: **VictoriaMetrics** (compatible Prometheus) o **TimescaleDB** (PostgreSQL-based).
+> [AVISO] InfluxDB 2.x+ cambió a licencia propietaria para el core. La versión 1.x sigue siendo MIT. Alternativa OSS: **VictoriaMetrics** (compatible Prometheus) o **TimescaleDB** (PostgreSQL-based).
 
 ---
 
@@ -110,28 +110,28 @@ ORDER BY max DESC LIMIT 5
 
 | DB | Licencia | Fortaleza |
 |---|---|---|
-| **InfluxDB 1.x** | MIT ✅ | Ecosistema maduro, TICK stack |
-| **TimescaleDB** | Apache 2.0 ✅ | PostgreSQL extension — SQL completo |
-| **VictoriaMetrics** | Apache 2.0 ✅ | Prometheus-compatible, muy rápido |
-| **QuestDB** | Apache 2.0 ✅ | SQL nativo, alta velocidad ingestión |
-| **Prometheus** | Apache 2.0 ✅ | Pull model, Kubernetes nativo |
+| **InfluxDB 1.x** | MIT  | Ecosistema maduro, TICK stack |
+| **TimescaleDB** | Apache 2.0  | PostgreSQL extension — SQL completo |
+| **VictoriaMetrics** | Apache 2.0  | Prometheus-compatible, muy rápido |
+| **QuestDB** | Apache 2.0  | SQL nativo, alta velocidad ingestión |
+| **Prometheus** | Apache 2.0  | Pull model, Kubernetes nativo |
 
 ---
 
-## 🎥 Tutoriales
+##  Tutoriales
 
-### 🇺🇸 English
+### English
 [![InfluxDB Nana](https://img.youtube.com/vi/MiFI0MNPQ4M/mqdefault.jpg)](https://www.youtube.com/watch?v=MiFI0MNPQ4M)
 [![InfluxDB Official](https://img.youtube.com/vi/n6J7JH_e-Mg/mqdefault.jpg)](https://www.youtube.com/watch?v=n6J7JH_e-Mg)
 
 ---
 
-## 🔗 Links
+##  Links
 
-- 📖 [Documentación oficial](https://docs.influxdata.com/)
-- 📊 [Grafana + InfluxDB — guía](https://grafana.com/docs/grafana/latest/datasources/influxdb/)
-- 🔄 [Telegraf — agente de colección](https://www.influxdata.com/time-series-platform/telegraf/)
-- 🔀 [TimescaleDB — alternativa PostgreSQL](https://www.timescale.com/)
+-  [Documentación oficial](https://docs.influxdata.com/)
+-  [Grafana + InfluxDB — guía](https://grafana.com/docs/grafana/latest/datasources/influxdb/)
+-  [Telegraf — agente de colección](https://www.influxdata.com/time-series-platform/telegraf/)
+-  [TimescaleDB — alternativa PostgreSQL](https://www.timescale.com/)
 
 ---
 

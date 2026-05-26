@@ -3,7 +3,7 @@
 
 # Microsoft SQL Server
 
-![Rating](https://img.shields.io/badge/rating-⭐⭐⭐⭐-blue?style=flat-square)
+![Rating](https://img.shields.io/badge/rating-★★★★-blue?style=flat-square)
 ![License](https://img.shields.io/badge/license-Comercial_(Microsoft)-blue?style=flat-square)
 ![Type](https://img.shields.io/badge/type-Relacional_ACID_Enterprise-blue?style=flat-square)
 ![Language](https://img.shields.io/badge/escrito_en-C%2B%2B-lightgrey?style=flat-square)
@@ -14,12 +14,12 @@
 
 ---
 
-## ⚡ Quick stats
+##  Quick stats
 
 | Atributo | Valor |
 |---|---|
 | Tipo | Relacional (SQL, T-SQL) |
-| ACID | ✅ Completo |
+| ACID |  Completo |
 | Licencia | Comercial (Microsoft) |
 | Lanzamiento | 1989 |
 | DB-Engines rank | **#3** (detrás de Oracle y MySQL) |
@@ -29,7 +29,7 @@
 
 ---
 
-## ✅ Cuándo usarlo
+##  Cuándo usarlo
 
 - Stack .NET / C# / ASP.NET — integración nativa
 - Empresa ya en ecosistema Microsoft / Azure
@@ -39,7 +39,7 @@
 - Migración desde sistemas legacy Windows
 - Stored procedures complejos en T-SQL
 
-## ❌ Cuándo NO usarlo
+##  Cuándo NO usarlo
 
 - Proyectos open-source o startups sin presupuesto → PostgreSQL
 - Stack Linux/Python/Node.js → PostgreSQL nativa mejor
@@ -48,7 +48,7 @@
 
 ---
 
-## 💰 Precios — On-Premises (list price 2025)
+## Precios — On-Premises (list price 2025)
 
 ```mermaid
 xychart-beta horizontal
@@ -80,11 +80,11 @@ xychart-beta horizontal
 | **Business Critical** | 4 vCores | ~$550/mes |
 | **Serverless GP** | Auto 0.5–2 vCores | ~$0.365/vCore-hora |
 
-> 💡 **Azure SQL Database Free Tier**: hasta 100K vCore-segundos de compute/mes, 32 GB storage — suficiente para proyectos personales.
+>  **Azure SQL Database Free Tier**: hasta 100K vCore-segundos de compute/mes, 32 GB storage — suficiente para proyectos personales.
 
 ---
 
-## 📊 Performance
+##  Performance
 
 ```
 Lectura (sysbench, tuned):     ~85,000 TPS
@@ -97,39 +97,39 @@ Columnstore index:             Analytics hasta 10x más rápido
 
 ---
 
-## 🔧 Features destacados
+##  Features destacados
 
 | Feature | SQL Server | PostgreSQL |
 |---|---|---|
-| In-Memory OLTP | ✅ Nativo (Hekaton) | ❌ (extensión) |
-| Columnstore index | ✅ Enterprise/Standard | ✅ (cstore_fdw) |
-| Always On AG | ✅ HA nativo | Requiere Patroni |
-| SSRS / SSAS / SSIS | ✅ Suite completa BI | Herramientas externas |
-| Azure integración | ✅ Native | Buena pero externa |
-| T-SQL features | ✅ Window functions, CTE | ✅ Similar |
+| In-Memory OLTP |  Nativo (Hekaton) |  (extensión) |
+| Columnstore index |  Enterprise/Standard |  (cstore_fdw) |
+| Always On AG |  HA nativo | Requiere Patroni |
+| SSRS / SSAS / SSIS |  Suite completa BI | Herramientas externas |
+| Azure integración |  Native | Buena pero externa |
+| T-SQL features |  Window functions, CTE |  Similar |
 
 ---
 
-## 🎥 Tutoriales
+##  Tutoriales
 
-### 🇺🇸 English
+### English
 [![SQL Server fCC](https://img.youtube.com/vi/7GVFYt6_ZFM/mqdefault.jpg)](https://www.youtube.com/watch?v=7GVFYt6_ZFM)
 [![SQL Server Mosh](https://img.youtube.com/vi/7S_tz1z_5bA/mqdefault.jpg)](https://www.youtube.com/watch?v=7S_tz1z_5bA)
 
-### 🇪🇸 Español
+### Español
 [![SQL Server ES](https://img.youtube.com/vi/G3CL_yQIJiM/mqdefault.jpg)](https://www.youtube.com/watch?v=G3CL_yQIJiM)
 
-### 🇨🇳 中文
+### 中文
 [![SQL Server ZH](https://img.youtube.com/vi/o48X3_XQ9to/mqdefault.jpg)](https://www.bilibili.com/video/BV1UE411i7VA)
 
 ---
 
-## 🔗 Links
+##  Links
 
-- 📖 [Documentación oficial](https://learn.microsoft.com/en-us/sql/sql-server/)
-- 🆓 [SQL Server Developer Edition (gratis)](https://www.microsoft.com/en-us/sql-server/sql-server-downloads)
+-  [Documentación oficial](https://learn.microsoft.com/en-us/sql/sql-server/)
+-  [SQL Server Developer Edition (gratis)](https://www.microsoft.com/en-us/sql-server/sql-server-downloads)
 - ☁️ [Azure SQL Database](https://azure.microsoft.com/en-us/products/azure-sql/database/)
-- 🔧 [SSMS — SQL Server Management Studio](https://learn.microsoft.com/en-us/sql/ssms/)
+-  [SSMS — SQL Server Management Studio](https://learn.microsoft.com/en-us/sql/ssms/)
 
 ---
 
