@@ -4,7 +4,6 @@
 
 > Guía verificada con benchmarks reales, precios actualizados 2025, tutoriales en **English · Español · 中文**, y veredictos honestos sobre qué usar y qué evitar.
 
----
 
 ## índice
 
@@ -17,7 +16,6 @@
 | [ Recursos](./RESOURCES.md) | Todos los tutoriales EN / ES / ZH |
 | [ Bases de datos individuales](#-bases-de-datos) | Docs detallados por DB |
 
----
 
 ## Rankings
 
@@ -56,7 +54,6 @@
 5. Upstash              → Redis serverless pay-per-use
 ```
 
----
 
 ## Bases de Datos
 
@@ -194,7 +191,6 @@
 </tr>
 </table>
 
----
 
 ## Benchmark Rápido
 
@@ -208,7 +204,6 @@ xychart-beta horizontal
 
 >  Ver análisis completo → [BENCHMARKS.md](./BENCHMARKS.md)
 
----
 
 ## Precios Rápido
 
@@ -222,12 +217,10 @@ xychart-beta
 
 >  Ver comparativa detallada → [PRICING.md](./PRICING.md)
 
----
 
 ## Las Peores
 
 >  Ver lista completa con razones → [WORST.md](./WORST.md)
 
----
 
 
