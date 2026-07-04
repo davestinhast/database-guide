@@ -18,6 +18,7 @@
 | [Benchmarks](./BENCHMARKS.md) | Performance comparada con datos reales |
 | [Precios](./PRICING.md) | Free tiers, más baratas, más caras |
 | [Las Peores](./WORST.md) | Bases de datos cerradas o que evitar |
+| [**Tierlist**](./TIERLIST.md) | Ranking visual con logos — S hasta R.I.P |
 | [Recursos](./RESOURCES.md) | Tutoriales EN / ES / 中文 |
 
 ---
