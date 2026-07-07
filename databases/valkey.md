@@ -1,5 +1,5 @@
 <div align="center">
-<img src="https://valkey.io/img/valkey-logo.svg" width="120"/>
+<img src="https://avatars.githubusercontent.com/u/125723492?s=120" width="120"/>
 
 # Valkey
 

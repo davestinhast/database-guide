@@ -80,15 +80,10 @@ Escalabilidad:                    Sharding horizontal nativo
 
 ### English
 [![MongoDB 100s](https://img.youtube.com/vi/-bt_y4Loofg/mqdefault.jpg)](https://www.youtube.com/watch?v=-bt_y4Loofg)
-[![MongoDB fCC](https://img.youtube.com/vi/ExcRbA7fy5A/mqdefault.jpg)](https://www.youtube.com/watch?v=ExcRbA7fy5A)
 [![MongoDB Amigoscode](https://img.youtube.com/vi/Www6cTUymCY/mqdefault.jpg)](https://www.youtube.com/watch?v=Www6cTUymCY)
 
-### Español
-[![MongoDB ES HolaMundo](https://img.youtube.com/vi/lWMemC6nBbQ/mqdefault.jpg)](https://www.youtube.com/watch?v=lWMemC6nBbQ)
-[![MongoDB Fazt](https://img.youtube.com/vi/wWWNcqzSzs8/mqdefault.jpg)](https://www.youtube.com/watch?v=wWWNcqzSzs8)
-
 ### 中文
-[![MongoDB ZH](https://img.youtube.com/vi/gBlH1qvmBuc/mqdefault.jpg)](https://www.bilibili.com/video/BV18s411E78K)
+[MongoDB 入门教程](https://www.bilibili.com/video/BV18s411E78K)
 
 ---
 

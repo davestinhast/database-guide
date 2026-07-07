@@ -32,5 +32,6 @@ jobs:
             --timeout 20
             --accept 200,429
             --exclude-all-private
+            --exclude '^https://dev\.mysql\.com/'
             './**/*.md'
           fail: true

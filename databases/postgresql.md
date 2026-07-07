@@ -78,12 +78,8 @@ Escalabilidad:                 Vertical + read replicas
 [![PostgreSQL 100s](https://img.youtube.com/vi/n2Fluyr3lbc/mqdefault.jpg)](https://www.youtube.com/watch?v=n2Fluyr3lbc)
 [![PostgreSQL Full](https://img.youtube.com/vi/qw--VYLpxG4/mqdefault.jpg)](https://www.youtube.com/watch?v=qw--VYLpxG4)
 
-### Español
-[![PostgreSQL ES](https://img.youtube.com/vi/0Hf7WT9cKoA/mqdefault.jpg)](https://www.youtube.com/watch?v=0Hf7WT9cKoA)
-[![PostgreSQL HolaMundo](https://img.youtube.com/vi/G_gmEEuuoMk/mqdefault.jpg)](https://www.youtube.com/watch?v=G_gmEEuuoMk)
-
 ### 中文
-[![PostgreSQL ZH](https://img.youtube.com/vi/eMIxuk0nzsQ/mqdefault.jpg)](https://www.bilibili.com/video/BV1TV4y147kY)
+[PostgreSQL 完整教程](https://www.bilibili.com/video/BV1TV4y147kY)
 
 ---
 

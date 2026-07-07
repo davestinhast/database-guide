@@ -110,11 +110,8 @@ Migración desde Redis 7.2                  → prueba compatibilidad antes de c
 [![Redis Crash](https://img.youtube.com/vi/jgpVdJB2sKQ/mqdefault.jpg)](https://www.youtube.com/watch?v=jgpVdJB2sKQ)
 [![Redis Hussein](https://img.youtube.com/vi/sVCZo5B8ghE/mqdefault.jpg)](https://www.youtube.com/watch?v=sVCZo5B8ghE)
 
-### Español
-[![Redis ES Fazt](https://img.youtube.com/vi/oGL9c9-XWQw/mqdefault.jpg)](https://www.youtube.com/watch?v=oGL9c9-XWQw)
-
 ### 中文
-[![Redis ZH](https://img.youtube.com/vi/kZpPSd5lVEo/mqdefault.jpg)](https://www.bilibili.com/video/BV1Rv41177Af)
+[Redis 7 入门到实战](https://www.bilibili.com/video/BV1Rv41177Af)
 
 ---
 

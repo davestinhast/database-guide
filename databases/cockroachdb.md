@@ -111,20 +111,12 @@ Versión tested:      v20.2
 
 ---
 
-##  Tutoriales
-
-### English
-[![CockroachDB 100s](https://img.youtube.com/vi/VgXiMcbGwzQ/mqdefault.jpg)](https://www.youtube.com/watch?v=VgXiMcbGwzQ)
-[![CockroachDB Tutorial](https://img.youtube.com/vi/00QmGhGPuyk/mqdefault.jpg)](https://www.youtube.com/watch?v=00QmGhGPuyk)
-
----
-
 ##  Links
 
 -  [Documentación oficial](https://www.cockroachlabs.com/docs/)
 -  [CockroachDB Serverless — free tier](https://www.cockroachlabs.com/free-tier/)
 -  [TPC-C benchmark details](https://www.cockroachlabs.com/blog/cockroachdb-performance-20-2/)
--  [Migración desde PostgreSQL](https://www.cockroachlabs.com/docs/stable/migrate-from-postgres.html)
+-  [Migración a CockroachDB](https://www.cockroachlabs.com/docs/molt/migrate-to-cockroachdb)
 
 ---
 

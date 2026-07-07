@@ -108,7 +108,6 @@ mysql -u root -p mydb < backup.sql   # en MariaDB
 
 ### Español
  Los tutoriales de MySQL aplican directamente — misma sintaxis
-[![MySQL ES TodoCode](https://img.youtube.com/vi/wpdHPqONnqc/mqdefault.jpg)](https://www.youtube.com/watch?v=wpdHPqONnqc)
 
 ### 中文
  Los cursos de MySQL de 尚硅谷 y 黑马程序员 aplican directamente

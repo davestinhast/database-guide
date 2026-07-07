@@ -23,14 +23,12 @@
 
 | | Video | Canal |
 |---|---|---|
-| [![PostgreSQL ES](https://img.youtube.com/vi/0Hf7WT9cKoA/mqdefault.jpg)](https://www.youtube.com/watch?v=0Hf7WT9cKoA) | [PostgreSQL desde cero](https://www.youtube.com/watch?v=0Hf7WT9cKoA) | Fazt |
-| [![PostgreSQL Hola Mundo](https://img.youtube.com/vi/G_gmEEuuoMk/mqdefault.jpg)](https://www.youtube.com/watch?v=G_gmEEuuoMk) | [PostgreSQL Tutorial Completo](https://www.youtube.com/watch?v=G_gmEEuuoMk) | HolaMundo |
 
 ### 中文
 
 | | Video | Canal |
 |---|---|---|
-| [![PostgreSQL ZH](https://img.youtube.com/vi/eMIxuk0nzsQ/mqdefault.jpg)](https://www.bilibili.com/video/BV1TV4y147kY) | [PostgreSQL 完整教程](https://www.bilibili.com/video/BV1TV4y147kY) | 尚硅谷 |
+| [Abrir en Bilibili](https://www.bilibili.com/video/BV1TV4y147kY) | [PostgreSQL 完整教程](https://www.bilibili.com/video/BV1TV4y147kY) | 尚硅谷 |
 
 ---
 
@@ -51,8 +49,6 @@
 
 | | Video | Canal |
 |---|---|---|
-| [![MySQL ES](https://img.youtube.com/vi/wpdHPqONnqc/mqdefault.jpg)](https://www.youtube.com/watch?v=wpdHPqONnqc) | [MySQL desde cero](https://www.youtube.com/watch?v=wpdHPqONnqc) | TodoCode |
-| [![MySQL Fazt](https://img.youtube.com/vi/OqjnO5gPZoE/mqdefault.jpg)](https://www.youtube.com/watch?v=OqjnO5gPZoE) | [MySQL Curso Completo](https://www.youtube.com/watch?v=OqjnO5gPZoE) | Fazt |
 
 ### 中文
 
@@ -71,7 +67,6 @@
 | | Video | Canal | Duración |
 |---|---|---|---|
 | [![MongoDB 100s](https://img.youtube.com/vi/-bt_y4Loofg/mqdefault.jpg)](https://www.youtube.com/watch?v=-bt_y4Loofg) | [MongoDB in 100 Seconds](https://www.youtube.com/watch?v=-bt_y4Loofg) | Fireship | 2 min |
-| [![MongoDB fCC](https://img.youtube.com/vi/ExcRbA7fy5A/mqdefault.jpg)](https://www.youtube.com/watch?v=ExcRbA7fy5A) | [MongoDB Full Course](https://www.youtube.com/watch?v=ExcRbA7fy5A) | freeCodeCamp | 1.5 hr |
 | [![MongoDB Amigoscode](https://img.youtube.com/vi/Www6cTUymCY/mqdefault.jpg)](https://www.youtube.com/watch?v=Www6cTUymCY) | [MongoDB Tutorial for Beginners](https://www.youtube.com/watch?v=Www6cTUymCY) | Amigoscode | 1 hr |
 
  [Documentación oficial](https://www.mongodb.com/docs/)
@@ -80,14 +75,12 @@
 
 | | Video | Canal |
 |---|---|---|
-| [![MongoDB ES](https://img.youtube.com/vi/lWMemC6nBbQ/mqdefault.jpg)](https://www.youtube.com/watch?v=lWMemC6nBbQ) | [MongoDB desde cero](https://www.youtube.com/watch?v=lWMemC6nBbQ) | HolaMundo |
-| [![MongoDB Fazt](https://img.youtube.com/vi/wWWNcqzSzs8/mqdefault.jpg)](https://www.youtube.com/watch?v=wWWNcqzSzs8) | [MongoDB Crash Course](https://www.youtube.com/watch?v=wWWNcqzSzs8) | Fazt |
 
 ### 中文
 
 | | Video | Canal |
 |---|---|---|
-| [![MongoDB ZH](https://img.youtube.com/vi/gBlH1qvmBuc/mqdefault.jpg)](https://www.bilibili.com/video/BV18s411E78K) | [MongoDB 入门教程](https://www.bilibili.com/video/BV18s411E78K) | 狂神说 |
+| [Abrir en Bilibili](https://www.bilibili.com/video/BV18s411E78K) | [MongoDB 入门教程](https://www.bilibili.com/video/BV18s411E78K) | 狂神说 |
 
 ---
 
@@ -109,13 +102,12 @@
 
 | | Video | Canal |
 |---|---|---|
-| [![Redis ES](https://img.youtube.com/vi/oGL9c9-XWQw/mqdefault.jpg)](https://www.youtube.com/watch?v=oGL9c9-XWQw) | [Redis desde cero](https://www.youtube.com/watch?v=oGL9c9-XWQw) | Fazt |
 
 ### 中文
 
 | | Video | Canal |
 |---|---|---|
-| [![Redis ZH](https://img.youtube.com/vi/kZpPSd5lVEo/mqdefault.jpg)](https://www.bilibili.com/video/BV1Rv41177Af) | [Redis 7 入门到实战](https://www.bilibili.com/video/BV1Rv41177Af) | 尚硅谷 |
+| [Abrir en Bilibili](https://www.bilibili.com/video/BV1Rv41177Af) | [Redis 7 入门到实战](https://www.bilibili.com/video/BV1Rv41177Af) | 尚硅谷 |
 
 ---
 
@@ -128,7 +120,6 @@
 | | Video | Canal | Duración |
 |---|---|---|---|
 | [![SQLite 100s](https://img.youtube.com/vi/byHcYRpMgI4/mqdefault.jpg)](https://www.youtube.com/watch?v=byHcYRpMgI4) | [SQLite in 100 Seconds](https://www.youtube.com/watch?v=byHcYRpMgI4) | Fireship | 2 min |
-| [![SQLite fCC](https://img.youtube.com/vi/HQp4JhMoHw4/mqdefault.jpg)](https://www.youtube.com/watch?v=HQp4JhMoHw4) | [SQLite Tutorial](https://www.youtube.com/watch?v=HQp4JhMoHw4) | freeCodeCamp | 1.5 hr |
 
  [Documentación oficial](https://www.sqlite.org/docs.html)
 
@@ -136,7 +127,6 @@
 
 | | Video | Canal |
 |---|---|---|
-| [![SQLite ES](https://img.youtube.com/vi/ANT5tQm2gUQ/mqdefault.jpg)](https://www.youtube.com/watch?v=ANT5tQm2gUQ) | [SQLite desde cero](https://www.youtube.com/watch?v=ANT5tQm2gUQ) | TodoCode |
 
 ### 中文
  [SQLite 官方文档 (中文译版)](https://www.sqlite.net.cn/)
@@ -173,19 +163,17 @@
 | | Video | Canal | Duración |
 |---|---|---|---|
 | [![ES fCC](https://img.youtube.com/vi/ZP0NmfyfsoM/mqdefault.jpg)](https://www.youtube.com/watch?v=ZP0NmfyfsoM) | [Elasticsearch Full Course](https://www.youtube.com/watch?v=ZP0NmfyfsoM) | freeCodeCamp | 2 hr |
-| [![ES 100s](https://img.youtube.com/vi/FjCBaHKDJZk/mqdefault.jpg)](https://www.youtube.com/watch?v=FjCBaHKDJZk) | [Elasticsearch in 100 Seconds](https://www.youtube.com/watch?v=FjCBaHKDJZk) | Fireship | 2 min |
 
  [Documentación oficial](https://www.elastic.co/guide/index.html)
 
 ### Español
 | | Video | Canal |
 |---|---|---|
-| [![ES ES](https://img.youtube.com/vi/bOe_gZMVGnI/mqdefault.jpg)](https://www.youtube.com/watch?v=bOe_gZMVGnI) | [Elasticsearch desde cero](https://www.youtube.com/watch?v=bOe_gZMVGnI) | Keep Coding |
 
 ### 中文
 | | Video | Canal |
 |---|---|---|
-| [![ES ZH](https://img.youtube.com/vi/Z06aBuXnb5E/mqdefault.jpg)](https://www.bilibili.com/video/BV17a411B7ZV) | [Elasticsearch 7 入门](https://www.bilibili.com/video/BV17a411B7ZV) | 尚硅谷 |
+| [Abrir en Bilibili](https://www.bilibili.com/video/BV17a411B7ZV) | [Elasticsearch 7 入门](https://www.bilibili.com/video/BV17a411B7ZV) | 尚硅谷 |
 
 ---
 
@@ -208,7 +196,7 @@
 ### 中文
 | | Video | Canal |
 |---|---|---|
-| [![Cassandra ZH](https://img.youtube.com/vi/xYBVD3APOPE/mqdefault.jpg)](https://www.bilibili.com/video/BV1ZA411674Z) | [Cassandra 入门教程](https://www.bilibili.com/video/BV1ZA411674Z) | 黑马程序员 |
+| [Abrir en Bilibili](https://www.bilibili.com/video/BV1ZA411674Z) | [Cassandra 入门教程](https://www.bilibili.com/video/BV1ZA411674Z) | 黑马程序员 |
 
 ---
 
@@ -218,8 +206,6 @@
 
 | | Video | Canal |
 |---|---|---|
-| [![InfluxDB](https://img.youtube.com/vi/n6J7JH_e-Mg/mqdefault.jpg)](https://www.youtube.com/watch?v=n6J7JH_e-Mg) | [InfluxDB Overview](https://www.youtube.com/watch?v=n6J7JH_e-Mg) | InfluxData |
-| [![InfluxDB full](https://img.youtube.com/vi/MiFI0MNPQ4M/mqdefault.jpg)](https://www.youtube.com/watch?v=MiFI0MNPQ4M) | [InfluxDB Tutorial](https://www.youtube.com/watch?v=MiFI0MNPQ4M) | TechWorld w/ Nana |
 
  [Documentación oficial](https://docs.influxdata.com/)
 
@@ -245,8 +231,6 @@
 
 | | Video | Canal |
 |---|---|---|
-| [![Cockroach](https://img.youtube.com/vi/VgXiMcbGwzQ/mqdefault.jpg)](https://www.youtube.com/watch?v=VgXiMcbGwzQ) | [CockroachDB in 100 Seconds](https://www.youtube.com/watch?v=VgXiMcbGwzQ) | Fireship |
-| [![Cockroach full](https://img.youtube.com/vi/00QmGhGPuyk/mqdefault.jpg)](https://www.youtube.com/watch?v=00QmGhGPuyk) | [CockroachDB Tutorial](https://www.youtube.com/watch?v=00QmGhGPuyk) | CockroachDB Official |
 
  [Documentación oficial](https://www.cockroachlabs.com/docs/)
 
@@ -268,7 +252,6 @@
 | Canal | Especialidad |
 |---|---|
 | [Fazt](https://www.youtube.com/@Fazt) | Tutoriales de todo, muy claro |
-| [HolaMundo](https://www.youtube.com/@HolaMundo) | Proyectos y fundamentos |
 | [TodoCode](https://www.youtube.com/@TodoCode) | Fundamentos y prácticas |
 | [MoureDev](https://www.youtube.com/@mouredev) | Python + bases de datos |
 | [Pildoras Informaticas](https://www.youtube.com/@pildorasinformaticas) | Muy didáctico, SQL especialmente |

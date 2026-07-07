@@ -110,13 +110,9 @@ SIEM → Beats → Elasticsearch → Kibana Security
 
 ### English
 [![ES fCC](https://img.youtube.com/vi/ZP0NmfyfsoM/mqdefault.jpg)](https://www.youtube.com/watch?v=ZP0NmfyfsoM)
-[![ES 100s](https://img.youtube.com/vi/FjCBaHKDJZk/mqdefault.jpg)](https://www.youtube.com/watch?v=FjCBaHKDJZk)
-
-### Español
-[![ES ES](https://img.youtube.com/vi/bOe_gZMVGnI/mqdefault.jpg)](https://www.youtube.com/watch?v=bOe_gZMVGnI)
 
 ### 中文
-[![ES ZH](https://img.youtube.com/vi/Z06aBuXnb5E/mqdefault.jpg)](https://www.bilibili.com/video/BV17a411B7ZV)
+[Elasticsearch 7 入门](https://www.bilibili.com/video/BV17a411B7ZV)
 
 ---
 
