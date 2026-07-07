@@ -8,7 +8,7 @@
 ![Type](https://img.shields.io/badge/type-In--Memory_Key--Value-red?style=flat-square)
 ![Language](https://img.shields.io/badge/escrito_en-C-lightgrey?style=flat-square)
 
-**El fork open-source de Redis respaldado por la Linux Foundation, Amazon, Google y Oracle. Drop-in replacement, BSD-3, y 37% más rápido que Redis 8.0. Si estás empezando un proyecto nuevo que habría usado Redis, usa esto.**
+**Fork de Redis 7.2.4 con licencia BSD-3 y gobernanza de la Linux Foundation. Es una alternativa compatible, pero la compatibilidad y el rendimiento deben validarse con cada workload.**
 
 </div>
 
@@ -48,7 +48,7 @@ Sirve para:
 
 ## Por qué existe Valkey — el drama de Redis 2024
 
-En marzo de 2024, Redis Ltd. cambió la licencia de Redis de BSD-3 a SSPL + RSALv2. Esto significa que si quieres deployar Redis como servicio (como hacen AWS, Google, etc.), necesitas pagar licencia comercial.
+En marzo de 2024, Redis Ltd. cambió la licencia de Redis de BSD-3 a SSPL + RSALv2. Ninguna de esas dos licencias estaba aprobada por la OSI, y varios proveedores impulsaron Valkey desde Redis 7.2.4. En mayo de 2025 Redis 8 añadió AGPLv3 como tercera opción, por lo que Redis volvió a ofrecer una licencia open source, aunque copyleft.
 
 La comunidad respondió pe: en dos semanas, la Linux Foundation anunció Valkey con el respaldo de Amazon, Google, Oracle, Snap, y Ericsson. El fork partió desde Redis 7.2.4.
 
@@ -66,15 +66,18 @@ Amazon Web Services dejó de actualizar ElastiCache con nuevas versiones de Redi
 
 | | Valkey | Redis |
 |---|---|---|
-| **Licencia** | BSD-3 (libre) | SSPL + comercial |
-| **Velocidad (benchmark 2025)** | **37% más rápido** que Redis 8.0 | baseline |
-| **p99 latencia** | ~30% mejor | baseline |
+| **Licencia** | BSD-3 (permisiva) | AGPLv3, RSALv2 o SSPLv1 en Redis 8+ |
+| **Rendimiento** | Depende del workload y configuración | Depende del workload y configuración |
 | **Respaldo** | Linux Foundation | Redis Ltd. |
 | **Managed AWS** | ElastiCache for Valkey | ElastiCache for Redis (legacy) |
 | **Compatible** | Sí, drop-in | baseline |
 | **Multi-threading** | Mejorado en v8 | disponible desde v6 |
 
-Los benchmarks de Valkey 8.1 en hardware AWS `c8g.2xlarge` muestran hasta 1,000,000 ops/seg en GET, comparado con ~730,000 de Redis 8.0 bajo las mismas condiciones.
+Las cifras publicadas por proyectos y proveedores sirven como punto de partida,
+no como garantía. Compara versiones equivalentes con la misma máquina,
+persistencia, clientes, tamaño de valores y mezcla de comandos.
+
+**Licencias verificadas:** 2026-07-07 · [Redis](https://redis.io/legal/licenses/) · [Valkey](https://github.com/valkey-io/valkey/blob/unstable/COPYING)
 
 ---
 

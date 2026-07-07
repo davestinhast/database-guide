@@ -1,0 +1,26 @@
+name: Corrección factual
+description: Reporta un dato incorrecto, desactualizado o sin evidencia.
+title: "[Fact-check]: "
+labels: [fact-check]
+body:
+  - type: textarea
+    id: claim
+    attributes:
+      label: Afirmación cuestionada
+      description: Copia la frase y señala el archivo o sección.
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Evidencia
+      description: Enlaza preferentemente documentación o anuncios oficiales.
+    validations:
+      required: true
+  - type: input
+    id: checked
+    attributes:
+      label: Fecha de verificación
+      placeholder: AAAA-MM-DD
+    validations:
+      required: true

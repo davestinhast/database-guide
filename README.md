@@ -1,7 +1,10 @@
-# Guía de Bases de Datos 2025/2026
+# Guía de bases de datos
 
 > Comparativa completa, benchmarks, precios, recursos y veredictos honestos.
 > Causa, acá no vas a encontrar el típico "depende del caso de uso" sin explicación. Cada base de datos tiene su sección con para qué sirve de verdad, quién la usa, y cuándo no usarla.
+
+> **Estado editorial:** contenido en revisión continua. Los datos volátiles deben
+> incluir fuente y fecha según la [metodología](./METHODOLOGY.md).
 
 ---
 
@@ -20,6 +23,8 @@
 | [Las Peores](./WORST.md) | Bases de datos cerradas o que evitar |
 | [**Tierlist**](./TIERLIST.md) | Ranking visual con logos — S hasta R.I.P |
 | [Recursos](./RESOURCES.md) | Tutoriales EN / ES / 中文 |
+| [Metodología](./METHODOLOGY.md) | Fuentes, vigencia, benchmarks y criterios editoriales |
+| [Contribuir](./CONTRIBUTING.md) | Cómo proponer correcciones y nuevas fichas |
 
 ---
 
@@ -116,7 +121,7 @@ El 80% de los proyectos empiezan bien con PostgreSQL pe. Es ACID, es flexible (t
 | Caso de uso | Ganadora | Por qué |
 |---|---|---|
 | App web general | **PostgreSQL** | ACID completo, extensible, gratis, feature-rica |
-| Caché y velocidad extrema | **Valkey** | In-memory, BSD-3, 37% más rápido que Redis 8.0 |
+| Caché con licencia permisiva | **Valkey** | In-memory, BSD-3 y gobernanza comunitaria |
 | Datos no estructurados / JSON | **MongoDB** | Schema flexible, escala horizontal, Atlas managed |
 | App móvil / embedded | **SQLite** | Zero-config, archivo único, sin servidor |
 | Escala masiva de escritura | **Cassandra** | Distribuida, sin SPOF, escritura sostenida |
@@ -159,7 +164,6 @@ El 80% de los proyectos empiezan bien con PostgreSQL pe. Es ACID, es flexible (t
 | **Supabase** | PostgreSQL | 500 MB | Auth + Storage + Realtime incluidos |
 | **Upstash** | Valkey/Redis | 256 MB | Serverless, pay-per-use, nunca expira |
 | **Firestore** | NoSQL doc | 1 GB | 50K reads/día, realtime incluido |
-test line
 
 ---
 
@@ -207,7 +211,7 @@ Para qué es: caché, sesiones de usuario, rate limiting, colas de mensajes, con
 
 No la uses para: datos primarios de tu app. Si Valkey se reinicia sin persistencia configurada, se pierden los datos.
 
-Nota 2024: Valkey es el fork open-source BSD-3 respaldado por Linux Foundation, Amazon y Google. Para nuevos proyectos, usa Valkey en lugar de Redis.
+Licencias verificadas el 2026-07-07: Valkey mantiene BSD-3 y gobernanza de la Linux Foundation. Redis cambió a RSALv2/SSPLv1 en 2024, pero Redis 8 añadió AGPLv3 como opción OSI-approved en 2025. Por tanto, ambos son open source hoy; la diferencia principal es licencia permisiva y gobernanza comunitaria en Valkey frente a copyleft y control de proveedor en Redis 8. Consulta la [matriz oficial de licencias de Redis](https://redis.io/legal/licenses/).
 
 ---
 
@@ -528,15 +532,9 @@ Hybrid search            → Weaviate. Vector y texto al mismo tiempo.
 
 ## Benchmark rápido
 
-```mermaid
-xychart-beta horizontal
-    title "Lectura simple — ops/segundo aproximado, 1 nodo"
-    x-axis ["PostgreSQL", "MySQL", "MongoDB", "Cassandra (20n)", "ScyllaDB", "Redis", "Valkey 8.1"]
-    y-axis "ops/seg (miles)" 0 --> 1100
-    bar [69, 48, 58, 200, 350, 508, 1000]
-```
-
-> Ver análisis completo con fuentes verificadas → [BENCHMARKS.md](./BENCHMARKS.md)
+Una gráfica única de “operaciones por segundo” entre motores con workloads,
+hardware y garantías distintas produce una comparación falsa. Consulta cómo
+diseñar y leer pruebas reproducibles en [BENCHMARKS.md](./BENCHMARKS.md).
 
 ---
 
