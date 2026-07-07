@@ -65,24 +65,18 @@ Después de 9 años, el repositorio open-source fue eliminado sin anuncio mayor.
 <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/redis/redis-original.svg" width="60"/>
 
 ```
-Cambio:   BSD-3 (open source) → SSPL + propietario
-Fecha:    2024
-Respuesta: Fork Valkey (Linux Foundation, respaldado por Amazon, Google, Oracle)
+Cambio 2024: BSD-3 → RSALv2 o SSPLv1 (source-available)
+Cambio 2025: Redis 8 añade AGPLv3 (open source) como tercera opción
+Respuesta: Valkey conserva BSD-3 bajo Linux Foundation
 ```
 
-**Historia**: Redis Ltd. cambió la licencia de Redis de BSD-3 a SSPL/propietario en 2024. La comunidad respondió con el fork **Valkey** bajo Linux Foundation.
+**Historia**: Redis Ltd. salió de BSD-3 en 2024 y la comunidad respondió con **Valkey**. Redis corrigió parcialmente el rumbo en 2025 al añadir AGPLv3, aprobada por la OSI, para Redis 8+. Valkey sigue diferenciándose por una licencia permisiva y gobernanza neutral.
 
-**Resultados de Valkey en 2025**:
-- 8% más rápido en throughput general que Redis 8.0
-- 37% más alto en SET throughput
-- 30% mejor p99 latencia en SET
-- 60%+ mejor p99 latencia en GET
+**Recomendación**: elige Valkey si priorizas BSD-3 y gobernanza comunitaria;
+evalúa Redis 8 si AGPLv3 y sus features integradas encajan en el proyecto. Mide
+ambos con el mismo workload antes de afirmar una ventaja de rendimiento.
 
-```
-Recomendación: Usa Valkey en proyectos nuevos.
-               Redis sigue siendo bueno si usas el servicio managed (Redis Cloud).
-               Self-hosted open-source: Valkey es la opción.
-```
+**Verificado:** 2026-07-07 · [Licencias oficiales de Redis](https://redis.io/legal/licenses/)
 
 ---
 

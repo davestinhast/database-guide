@@ -124,7 +124,7 @@ xychart-beta horizontal
 [![Cassandra fCC](https://img.youtube.com/vi/s1xc1HVsRk0/mqdefault.jpg)](https://www.youtube.com/watch?v=s1xc1HVsRk0)
 
 ### 中文
-[![Cassandra ZH](https://img.youtube.com/vi/xYBVD3APOPE/mqdefault.jpg)](https://www.bilibili.com/video/BV1ZA411674Z)
+[Cassandra 入门教程](https://www.bilibili.com/video/BV1ZA411674Z)
 
 ### Español
  [Buscar: Cassandra en español](https://www.youtube.com/results?search_query=apache+cassandra+tutorial+español)

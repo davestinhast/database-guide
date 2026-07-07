@@ -108,10 +108,6 @@ PRAGMA cache_size=10000;   -- cache pages en memoria
 
 ### English
 [![SQLite 100s](https://img.youtube.com/vi/byHcYRpMgI4/mqdefault.jpg)](https://www.youtube.com/watch?v=byHcYRpMgI4)
-[![SQLite fCC](https://img.youtube.com/vi/HQp4JhMoHw4/mqdefault.jpg)](https://www.youtube.com/watch?v=HQp4JhMoHw4)
-
-### Español
-[![SQLite ES](https://img.youtube.com/vi/ANT5tQm2gUQ/mqdefault.jpg)](https://www.youtube.com/watch?v=ANT5tQm2gUQ)
 
 ### 中文
  [SQLite 官方文档 (中文译版)](https://www.sqlite.net.cn/) · [Turso 中文文档](https://docs.turso.tech/)

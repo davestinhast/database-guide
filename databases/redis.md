@@ -8,7 +8,7 @@
 ![Type](https://img.shields.io/badge/type-In--Memory_Key--Value-red?style=flat-square)
 ![Language](https://img.shields.io/badge/escrito_en-C-lightgrey?style=flat-square)
 
-**El rey de in-memory. Redis cambió de licencia en 2024 → la comunidad forkeó Valkey (Linux Foundation). Para self-hosted open-source: usa Valkey.**
+**Dos proyectos compatibles con historias de licencia y gobernanza distintas. Valkey conserva BSD-3; Redis 8 ofrece AGPLv3 además de RSALv2 y SSPLv1.**
 
 </div>
 
@@ -20,7 +20,7 @@
 |---|---|---|
 | Tipo | In-Memory Key-Value / Multi-model | In-Memory Key-Value |
 | ACID |  (AOF/RDB durability, no ACID completo) |  mismo modelo |
-| Licencia | **SSPL + proprietary** (desde 2024) | **BSD-3**  (OSS real) |
+| Licencia | **AGPLv3, RSALv2 o SSPLv1** (Redis 8+) | **BSD-3** |
 | Lanzamiento | 2009 | 2024 (fork de Redis 7.2) |
 | DB-Engines rank | #6 | N/A (nuevo) |
 | Respaldo | Redis Inc. | Linux Foundation, Amazon, Google, Oracle |
@@ -28,35 +28,35 @@
 
 ---
 
-##  Bait-and-Switch — Redis 2024
+## Historia de licencias
 
 ```
-Antes: BSD-3 (open source real)
-Ahora: SSPL + comercial → no puedes deployar como servicio sin licencia
-Fork:  Valkey (Linux Foundation) — respaldado por Amazon, Google, Oracle
+Redis <= 7.2: BSD-3
+Redis 7.4–7.8: RSALv2 o SSPLv1 (source-available)
+Redis >= 8: AGPLv3, RSALv2 o SSPLv1
+Valkey: BSD-3 bajo gobernanza de Linux Foundation
 ```
+
+El cambio de 2024 motivó la creación de Valkey. En mayo de 2025 Redis añadió
+AGPLv3, una licencia open source aprobada por la OSI, para Redis 8 y posteriores.
+Llamar “propietario” a todo Redis actual ya no es correcto.
+
+**Verificado:** 2026-07-07 · [Licencias oficiales de Redis](https://redis.io/legal/licenses/) · [Licencia de Valkey](https://github.com/valkey-io/valkey/blob/unstable/COPYING)
 
 ---
 
-## ️ Performance — Valkey gana en todo
+## Rendimiento
 
-```mermaid
-xychart-beta horizontal
-    title "ops/seg — Redis vs Valkey (2025)"
-    x-axis ["Redis GET (pipeline)", "Redis SET (pipeline)", "Valkey GET (c8g.2xl)", "Valkey SET (c8g.2xl)"]
-    y-axis "ops/seg (miles)" 0 --> 1100
-    bar [508, 403, 1000, 1000]
-```
+Redis y Valkey pueden superar cientos de miles de operaciones por segundo con
+pipelining, pero una cifra aislada no permite declarar un ganador. El resultado
+depende de la versión, CPU, red, tamaño de valores, persistencia, número de
+clientes y distribución de comandos.
 
-| Métrica | Redis 8.0 | Valkey 8.1 | Valkey vs Redis |
-|---|---|---|---|
-| GET throughput | ~508K ops/seg | ~1,000K ops/seg | **+37% más rápido** |
-| SET throughput | ~403K ops/seg | ~1,000K ops/seg | **+37% más rápido** |
-| p99 latencia GET | <2ms | <1.5ms | **60%+ mejor** |
-| p99 latencia SET | ~2ms | <1.4ms | **30% mejor** |
-| Latencia p50 | <1ms | <1ms | Comparable |
+Para decidir entre ambos, ejecuta `memtier_benchmark` o `redis-benchmark` con tu
+configuración de durabilidad y tu mezcla real de comandos. No compares un
+resultado de Redis en un portátil con uno de Valkey en AWS Graviton.
 
-**Fuente**: [andrewbaker.ninja — Redis vs Valkey 2025](https://andrewbaker.ninja/2026/01/04/redis-vs-valkey-enterprise-architecture-guide-2025/) · [Redis benchmarks oficiales](https://redis.io/docs/latest/operate/oss_and_stack/management/optimization/benchmarks/)
+Referencias: [benchmark oficial de Redis](https://redis.io/docs/latest/operate/oss_and_stack/management/optimization/benchmarks/) y [herramienta de benchmarking de Valkey](https://valkey.io/topics/benchmark/).
 
 ---
 
@@ -92,13 +92,13 @@ xychart-beta horizontal
 
 ---
 
-##  ¿Cuál usar en 2025?
+## ¿Cuál usar?
 
 ```
-Self-hosted open-source       → Valkey (BSD-3, más rápido, respaldo LF)
-Managed cloud                 → Redis Cloud o Upstash (si no te importa SSPL)
-Proyectos nuevos              → Valkey directamente, no Redis
-Proyectos existentes en Redis → Pueden migrar a Valkey (compatible API)
+Licencia permisiva y gobernanza comunitaria → Valkey (BSD-3)
+Features integradas de Redis 8 y soporte Redis → Redis 8 (AGPLv3 disponible)
+Managed cloud                              → compara SLA, precio y compatibilidad
+Migración desde Redis 7.2                  → prueba compatibilidad antes de cambiar
 ```
 
 ---
@@ -110,11 +110,8 @@ Proyectos existentes en Redis → Pueden migrar a Valkey (compatible API)
 [![Redis Crash](https://img.youtube.com/vi/jgpVdJB2sKQ/mqdefault.jpg)](https://www.youtube.com/watch?v=jgpVdJB2sKQ)
 [![Redis Hussein](https://img.youtube.com/vi/sVCZo5B8ghE/mqdefault.jpg)](https://www.youtube.com/watch?v=sVCZo5B8ghE)
 
-### Español
-[![Redis ES Fazt](https://img.youtube.com/vi/oGL9c9-XWQw/mqdefault.jpg)](https://www.youtube.com/watch?v=oGL9c9-XWQw)
-
 ### 中文
-[![Redis ZH](https://img.youtube.com/vi/kZpPSd5lVEo/mqdefault.jpg)](https://www.bilibili.com/video/BV1Rv41177Af)
+[Redis 7 入门到实战](https://www.bilibili.com/video/BV1Rv41177Af)
 
 ---
 
@@ -122,8 +119,8 @@ Proyectos existentes en Redis → Pueden migrar a Valkey (compatible API)
 
 -  [Documentación Redis](https://redis.io/docs/)
 -  [Documentación Valkey](https://valkey.io/docs/)
+-  [Licencias Redis por versión](https://redis.io/legal/licenses/)
 -  [Upstash — Redis serverless gratis](https://upstash.com/)
--  [Redis vs Valkey benchmark 2025](https://andrewbaker.ninja/2026/01/04/redis-vs-valkey-enterprise-architecture-guide-2025/)
 
 ---
 

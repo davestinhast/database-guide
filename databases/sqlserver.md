@@ -116,9 +116,6 @@ Columnstore index:             Analytics hasta 10x más rápido
 [![SQL Server fCC](https://img.youtube.com/vi/7GVFYt6_ZFM/mqdefault.jpg)](https://www.youtube.com/watch?v=7GVFYt6_ZFM)
 [![SQL Server Mosh](https://img.youtube.com/vi/7S_tz1z_5bA/mqdefault.jpg)](https://www.youtube.com/watch?v=7S_tz1z_5bA)
 
-### Español
-[![SQL Server ES](https://img.youtube.com/vi/G3CL_yQIJiM/mqdefault.jpg)](https://www.youtube.com/watch?v=G3CL_yQIJiM)
-
 ### 中文
 [![SQL Server ZH](https://img.youtube.com/vi/o48X3_XQ9to/mqdefault.jpg)](https://www.bilibili.com/video/BV1UE411i7VA)
 

@@ -118,14 +118,6 @@ ORDER BY max DESC LIMIT 5
 
 ---
 
-##  Tutoriales
-
-### English
-[![InfluxDB Nana](https://img.youtube.com/vi/MiFI0MNPQ4M/mqdefault.jpg)](https://www.youtube.com/watch?v=MiFI0MNPQ4M)
-[![InfluxDB Official](https://img.youtube.com/vi/n6J7JH_e-Mg/mqdefault.jpg)](https://www.youtube.com/watch?v=n6J7JH_e-Mg)
-
----
-
 ##  Links
 
 -  [Documentación oficial](https://docs.influxdata.com/)

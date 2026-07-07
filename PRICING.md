@@ -1,6 +1,8 @@
 # Precios — Free Tiers, Más Baratas, Más Caras (2025/2026)
 
-> Precios verificados. Última actualización: mayo 2026.
+> Última revisión general: mayo de 2026. Los proveedores pueden cambiar estos
+> datos sin aviso; verifica cada cifra en la página oficial antes de comprar.
+> Consulta la [política para datos volátiles](./METHODOLOGY.md#datos-que-envejecen).
 
 ---
 

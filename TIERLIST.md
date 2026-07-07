@@ -4,7 +4,7 @@
 
 <br/>
 
-<sub>Causa, acá está el ranking real ordenado por confiabilidad, licencia, rendimiento y futuro. Pe, no por popularidad.</sub>
+<sub>Ranking editorial según los criterios publicados abajo; no es un benchmark ni una verdad universal.</sub>
 
 <br/><br/>
 
@@ -27,7 +27,7 @@
 <a href="./databases/sqlite.md" title="SQLite — 1 billón de deployments, dominio público">
 <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/sqlite/sqlite-original.svg" width="52" height="52"/>
 </a>&nbsp;&nbsp;
-<a href="./databases/valkey.md" title="Valkey — Redis fork BSD-3, 37% más rápido, Linux Foundation">
+<a href="./databases/valkey.md" title="Valkey — Redis fork BSD-3 bajo Linux Foundation">
 <img src="https://avatars.githubusercontent.com/u/125723492?s=52" width="52" height="52"/>
 </a>&nbsp;&nbsp;
 <a href="./databases/clickhouse.md" title="ClickHouse — OLAP columnar Apache 2.0, Cloudflare lo usa para 6M eventos/seg">
@@ -139,7 +139,7 @@
 <a href="./databases/mysql.md" title="MySQL — Oracle lo está matando, contributors cayeron de 198 a 75 desde 2006">
 <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original.svg" width="52" height="52"/>
 </a>&nbsp;&nbsp;
-<a href="./databases/redis.md" title="Redis — bait-and-switch licencia 2024, usa Valkey mejor">
+<a href="./databases/redis.md" title="Redis — tri-licencia desde Redis 8; evalúa AGPLv3 y gobernanza">
 <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/redis/redis-original.svg" width="52" height="52"/>
 </a>&nbsp;&nbsp;
 <a href="./databases/sqlserver.md" title="SQL Server — caro, lock-in Microsoft, solo si ya estás en el ecosistema">
@@ -243,7 +243,7 @@ Los criterios que determinaron cada posición pe, en orden de importancia:
 
 **SQLite** es la base de datos más deployada del mundo por máximo margen. Dominio público. Un solo desarrollador (D. Richard Hipp) la mantiene con más disciplina que equipos de 100 personas. No tiene servidor que caerse porque no es un servidor.
 
-**Valkey** ganó el S tier en 2024 porque tomó exactamente lo que Redis era (BSD-3, la versión buena) y lo mejoró. Con Amazon, Google, Oracle y la Linux Foundation respaldándolo, no va a desaparecer ni a cambiar licencia. El 37% de mejora en velocidad sobre Redis 8.0 es el cherry on top.
+**Valkey** ocupa el S tier por mantener BSD-3 y una gobernanza abierta bajo Linux Foundation. Eso reduce el riesgo de un cambio unilateral de licencia, pero no garantiza su futuro ni que sea más rápido en todos los workloads. Redis 8 volvió a ofrecer una opción open source con AGPLv3; la diferencia actual es principalmente de licencia, gobernanza y features.
 
 **ClickHouse** y **DuckDB** son las mejores opciones en sus nichos (OLAP servidor y OLAP embebido) con licencias limpias (Apache 2.0 y MIT). En un mundo donde cada herramienta de datos está tratando de cobrar enterprise fees, tener las mejores del segmento gratis es S tier.
 

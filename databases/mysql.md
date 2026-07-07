@@ -88,10 +88,6 @@ vs MariaDB:                    11–16% más lento (benchmarks 2024)
 [![MySQL Mosh](https://img.youtube.com/vi/7S_tz1z_5bA/mqdefault.jpg)](https://www.youtube.com/watch?v=7S_tz1z_5bA)
 [![MySQL Crash](https://img.youtube.com/vi/9ylj9NR0Lcg/mqdefault.jpg)](https://www.youtube.com/watch?v=9ylj9NR0Lcg)
 
-### Español
-[![MySQL ES TodoCode](https://img.youtube.com/vi/wpdHPqONnqc/mqdefault.jpg)](https://www.youtube.com/watch?v=wpdHPqONnqc)
-[![MySQL Fazt](https://img.youtube.com/vi/OqjnO5gPZoE/mqdefault.jpg)](https://www.youtube.com/watch?v=OqjnO5gPZoE)
-
 ### 中文
 [![MySQL ZH](https://img.youtube.com/vi/a9W7OpS4LfI/mqdefault.jpg)](https://www.bilibili.com/video/BV1iq4y1u7vj)
 
